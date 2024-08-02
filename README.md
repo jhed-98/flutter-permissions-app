@@ -1,6 +1,6 @@
 # Miscelaneos
 
-## Sección 1
+## Sección 3
 
 ### Temas puntuales
 
@@ -32,7 +32,7 @@ Esta sección tiene por objetivo aprender sobre:
 
 - Riverpod y centralización de permisos.
 
-## Sección 2
+## Sección 4
 
 ### Temas puntuales de la sección
 
