@@ -1,6 +1,8 @@
 # Miscelaneos
 
-## Temas puntuales
+## Sección 1
+
+### Temas puntuales
 
 Esta sección tiene por objetivo aprender sobre:
 
@@ -29,3 +31,25 @@ Esta sección tiene por objetivo aprender sobre:
   - Y cualquier otro permiso requerido
 
 - Riverpod y centralización de permisos.
+
+## Sección 2
+
+### Temas puntuales de la sección
+
+En esta sección veremos:
+
+- Bloqueo de orientación del teléfono
+
+- Giroscópio
+
+- Acelerómetro
+
+- Magnetómetro
+
+- Providers y Streams
+
+- Mover Widget basado en el giroscopio
+
+- Brújula
+
+- Animaciones para la brújula
