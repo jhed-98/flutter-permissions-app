@@ -10,7 +10,7 @@ Esta sección cuenta con sólo dos videos:
 
 1. [Actualización de Flutter y Proyecto](https://docs.flutter.dev/release/upgrade)
 
-2. Revisión del Dart Fix y sugerencias
+2. [Revisión del Dart Fix y sugerencias](https://dart.dev/tools/dart-fix)
 
 El objetivo es actualizar nuestro proyecto para poder utilizar la nueva sintaxis de incluye los records, desestructuración y una nueva estructura de control switch para trabar con los mismos, (entre otras cosas)
 
