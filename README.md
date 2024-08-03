@@ -2,54 +2,22 @@
 
 ## Sección 3
 
-### Temas puntuales
-
-Esta sección tiene por objetivo aprender sobre:
-
-- Estado de la aplicación
-
-  - Resumed
-
-  - Paused
-
-  - Detached
-
-  - Inactive
-
-- Reaccionar basado en el estado de la misma
-
-- Manejo de permisos
-
-  - Cámara
-
-  - Localización
-
-  - Body Sensors
-
-  - Galería
-
-  - Y cualquier otro permiso requerido
-
-- Riverpod y centralización de permisos.
-
-## Sección 4
-
 ### Temas puntuales de la sección
 
-En esta sección veremos:
+Esta sección es importante ya que quiero que preparemos la aplicación para realizar el deep-linking después.
 
-- Bloqueo de orientación del teléfono
+Puntualmente veremos:
 
-- Giroscópio
+- Rutas con argumentos
 
-- Acelerómetro
+- Peticiones HTTP
 
-- Magnetómetro
+- DDD - Domain Driven Design
 
-- Providers y Streams
+- FutureProviders
 
-- Mover Widget basado en el giroscopio
+- Share Plus
 
-- Brújula
+- Y más
 
-- Animaciones para la brújula
+El objetivo es tener una aplicación real, que sirva de base para compartir páginas con IDs que luego servirán para ir directamente a la aplicación si el usuario la tiene instalada.
