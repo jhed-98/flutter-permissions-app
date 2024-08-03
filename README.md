@@ -1,6 +1,6 @@
 # Miscelaneos
 
-## Sección 3
+## Sección 6
 
 ### Temas puntuales de la sección
 
