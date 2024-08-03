@@ -1,4 +1,4 @@
-import 'dart:math' show pi;
+// import 'dart:math' show pi;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -79,7 +79,7 @@ class _CompassState extends State<Compass> {
         //   style: const TextStyle(color: Colors.white, fontSize: 30),
         // ),
         const SizedBox(
-          height: 30,
+          height: 20,
         ),
         Stack(
           alignment: Alignment.center,
