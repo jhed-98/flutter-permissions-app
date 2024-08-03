@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:miscelaneos/config/config.dart';
 import 'package:miscelaneos/presentation/providers/providers.dart';
 
 void main() {
+  //! Se encarga de figar una orientacion del app
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+
   runApp(const ProviderScope(child: MainApp()));
 }
 
-//Esto nos permite observar la instacion del app
+//! Esto nos permite observar la instacion del app
 class MainApp extends ConsumerStatefulWidget {
   const MainApp({super.key});
 

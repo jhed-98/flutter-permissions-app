@@ -90,6 +90,7 @@ class PermissionsState {
     this.locationWhenInUse = PermissionStatus.denied,
   });
 
+  //getters
   get cameraGranted {
     return camera == PermissionStatus.granted;
   }
