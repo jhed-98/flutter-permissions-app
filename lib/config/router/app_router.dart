@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:miscelaneos/presentation/screens/screens.dart';
 
 final router = GoRouter(routes: [
+  //!General
   GoRoute(
     path: '/',
     builder: (context, state) => const HomeScreen(),
@@ -31,4 +32,18 @@ final router = GoRouter(routes: [
     path: '/compass',
     builder: (context, state) => const CompassScreen(),
   ),
+  //!Deep Links
+  GoRoute(
+      path: '/pokemons',
+      builder: (context, state) => const PokemonsScreen(),
+      routes: [
+        GoRoute(
+          path: ':id',
+          builder: (context, state) {
+            final id = state.pathParameters['id'] ?? '1';
+            //Crear una validacion cuando el id no es correcto
+            return PokemonItemScreen(pokemonId: id);
+          },
+        ),
+      ]),
 ]);
