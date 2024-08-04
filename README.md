@@ -117,3 +117,16 @@ Esta sección tiene por objetivo manejar los mapas y ubicación de usuario, junt
 Importante:
 
 La parte de mapas, es sólo mostrarlo y configuraciones generales, pero en la siguiente sección haremos un control mediante código del mapa usando su controlador, y marcadores.
+
+## Sección 10
+
+Esta sección tiene por objetivo aprender sobre:
+
+- Controladores del mapa
+- Marcadores
+- Eventos
+- InfoWindow
+- Seguimiento de ubicación
+- Streams
+
+Esto nos ayudará a poder controlar la forma como interactuamos con el mapa y nos dará el control que necesitamos para mover la toma, seguir el usuario, agregar marcadores, trabajar con Sets y muchas cosas más.
