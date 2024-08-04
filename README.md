@@ -98,7 +98,7 @@ xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
 xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
 ```
 
-### Sección 8
+## Sección 8
 
 El objetivo de la sección es ser capaz de autenticar localmente un usuario mediante biométricos o el PIN del usuario, el cual puede desactivarse si así lo desean y forzar biométricos únicamente.
 
