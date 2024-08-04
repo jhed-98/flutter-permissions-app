@@ -10,14 +10,21 @@ class MenuItem {
 }
 
 final menuItems = <MenuItem>[
+  // Sensores
   MenuItem('Giroscopio', Icons.downloading, '/gyroscope'),
   MenuItem('Acelerómetro', Icons.speed, '/acceloremete'),
   MenuItem('Magnetómetro', Icons.explore_outlined, '/magnetometro'),
   MenuItem(
       'Giróscopio Ball', Icons.sports_baseball_outlined, '/gyroscope_ball'),
-  MenuItem('Brújula', Icons.explore, '/compass'),
+  MenuItem('Brújula', Icons.explore, '/compass'),  
+  // Pokemon
   MenuItem('Pokemons', Icons.catching_pokemon, '/pokemons'),
+  // Biometria
   MenuItem('Biometrics', Icons.fingerprint, '/biometrics'),
+  // Ubicación
+  MenuItem('Ubicación', Icons.pin_drop, '/location'),
+  MenuItem('Mapas', Icons.map_outlined, '/maps'),
+  MenuItem('Controlado', Icons.gamepad_outlined, '/controlled-map'),
 ];
 
 class MainMenu extends StatelessWidget {

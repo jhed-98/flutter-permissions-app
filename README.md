@@ -109,3 +109,11 @@ Puntualmente veremos:
 3. FadeID
 4. FingerPrint reader
 5. Probar en Android e IOS
+
+## Sección 9
+
+Esta sección tiene por objetivo manejar los mapas y ubicación de usuario, junto a llaves de configuración necesarias para Google Maps.
+
+Importante:
+
+La parte de mapas, es sólo mostrarlo y configuraciones generales, pero en la siguiente sección haremos un control mediante código del mapa usando su controlador, y marcadores.
