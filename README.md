@@ -105,3 +105,23 @@ Puntualmente veremos:
 - Cambiar bundle ID y App ID
 
 La sección prácticamente es lo que necesitamos para implementar esta funcionalidad.
+
+Renombrar App ID
+
+```
+flutter pub run change_app_package_name:main com.jhedsalas.miscelaneos
+```
+
+sha-256
+
+```
+cd android
+./gradlew signingReport
+```
+### Pruebas IOS
+
+```
+xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons/1/
+
+xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
+```

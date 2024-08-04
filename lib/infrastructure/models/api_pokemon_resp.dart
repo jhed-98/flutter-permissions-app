@@ -413,12 +413,12 @@ class GenerationI {
 }
 
 class RedBlue {
-    final String backDefault;
-    final String backGray;
-    final String backTransparent;
-    final String frontDefault;
-    final String frontGray;
-    final String frontTransparent;
+    final dynamic backDefault;
+    final dynamic backGray;
+    final dynamic backTransparent;
+    final dynamic frontDefault;
+    final dynamic frontGray;
+    final dynamic frontTransparent;
 
     RedBlue({
         required this.backDefault,
@@ -473,14 +473,14 @@ class GenerationIi {
 }
 
 class Crystal {
-    final String backDefault;
-    final String backShiny;
-    final String backShinyTransparent;
-    final String backTransparent;
-    final String frontDefault;
-    final String frontShiny;
-    final String frontShinyTransparent;
-    final String frontTransparent;
+    final dynamic backDefault;
+    final dynamic backShiny;
+    final dynamic backShinyTransparent;
+    final dynamic backTransparent;
+    final dynamic frontDefault;
+    final dynamic frontShiny;
+    final dynamic frontShinyTransparent;
+    final dynamic frontTransparent;
 
     Crystal({
         required this.backDefault,
@@ -517,11 +517,11 @@ class Crystal {
 }
 
 class Gold {
-    final String backDefault;
-    final String backShiny;
-    final String frontDefault;
-    final String frontShiny;
-    final String? frontTransparent;
+    final dynamic backDefault;
+    final dynamic backShiny;
+    final dynamic frontDefault;
+    final dynamic frontShiny;
+    final dynamic frontTransparent;
 
     Gold({
         required this.backDefault,
@@ -573,8 +573,8 @@ class GenerationIii {
 }
 
 class OfficialArtwork {
-    final String frontDefault;
-    final String frontShiny;
+    final String? frontDefault;
+    final String? frontShiny;
 
     OfficialArtwork({
         required this.frontDefault,
