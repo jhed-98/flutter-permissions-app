@@ -93,9 +93,9 @@ cd android
 ### Pruebas IOS
 
 ```
-xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons/1/
+xcrun simctl openurl booted https://flutter-deep-linking-website.vercel.app/pokemons/1/
 
-xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
+xcrun simctl openurl booted https://flutter-deep-linking-website.vercel.app/pokemons
 ```
 
 ## Sección 8

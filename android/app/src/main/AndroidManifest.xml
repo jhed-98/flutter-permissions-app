@@ -24,6 +24,11 @@
         android:label="miscelaneos"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
+        <!-- Api_key -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB6x6ZIuD5cbZZBL_pu-HTeM-Z64_5lb3k"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -55,7 +60,7 @@
                 <data android:scheme="http" />
                 <data android:scheme="https" />
                 <!--TODO:-->
-                <data android:host="pokemon-deep-linking.up.railway.app" />
+                <data android:host="flutter-deep-linking-website.vercel.app" />
             </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.
