@@ -11,3 +11,5 @@ export 'compass/compass_provider.dart';
 //! Pokemons
 export 'pokemons/pokemon_list_provider.dart';
 export 'pokemons/pokemon_item_provider.dart';
+
+export 'local_auth/local_auth_providers.dart';

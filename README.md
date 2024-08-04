@@ -118,6 +118,7 @@ sha-256
 cd android
 ./gradlew signingReport
 ```
+
 ### Pruebas IOS
 
 ```
@@ -125,3 +126,15 @@ xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
 
 xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
 ```
+
+### Sección 8
+
+El objetivo de la sección es ser capaz de autenticar localmente un usuario mediante biométricos o el PIN del usuario, el cual puede desactivarse si así lo desean y forzar biométricos únicamente.
+
+Puntualmente veremos:
+
+1. Patrón adaptador alrededor de un paquete
+2. Diversos proveedores de Riverpod (opcional) pero recomendado
+3. FadeID
+4. FingerPrint reader
+5. Probar en Android e IOS

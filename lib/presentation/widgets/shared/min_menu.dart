@@ -17,6 +17,7 @@ final menuItems = <MenuItem>[
       'Giróscopio Ball', Icons.sports_baseball_outlined, '/gyroscope_ball'),
   MenuItem('Brújula', Icons.explore, '/compass'),
   MenuItem('Pokemons', Icons.catching_pokemon, '/pokemons'),
+  MenuItem('Biometrics', Icons.fingerprint, '/biometrics'),
 ];
 
 class MainMenu extends StatelessWidget {
@@ -76,7 +77,10 @@ class HomeMenuItem extends StatelessWidget {
             Text(
               title,
               textAlign: TextAlign.center,
-              style: const TextStyle(color: Colors.white),
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+              ),
             )
           ],
         ),
