@@ -130,3 +130,13 @@ Esta sección tiene por objetivo aprender sobre:
 - Streams
 
 Esto nos ayudará a poder controlar la forma como interactuamos con el mapa y nos dará el control que necesitamos para mover la toma, seguir el usuario, agregar marcadores, trabajar con Sets y muchas cosas más.
+
+## Sección 11
+
+Esta sección es pequeña y tiene por objetivo relajarnos un poco de tanto código con los mapas y enfocarnos en realizar unas funcionalidades extra a nuestra aplicación.
+
+Puntualmente veremos
+
+- QuickActions
+- Android - QuickActions Shortcuts
+- App Notification Numbers (Algunos Android e IOS)

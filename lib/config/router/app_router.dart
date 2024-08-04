@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:miscelaneos/presentation/screens/badge/badge_screen.dart';
 import 'package:miscelaneos/presentation/screens/screens.dart';
 
 final router = GoRouter(routes: [
@@ -63,5 +64,10 @@ final router = GoRouter(routes: [
   GoRoute(
     path: '/controlled-map',
     builder: (context, state) => const ControlledMapScreen(),
+  ),
+  //! Badge  
+  GoRoute(
+    path: '/badge',
+    builder: (context, state) => const BadgeScreen(),
   ),
 ]);

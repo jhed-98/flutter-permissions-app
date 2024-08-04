@@ -1,3 +1,4 @@
+import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -7,7 +8,27 @@ import 'package:miscelaneos/presentation/providers/providers.dart';
 void main() {
   //! Se encarga de figar una orientacion del app
   WidgetsFlutterBinding.ensureInitialized();
+
+  //! Llamamos al plugin
+  QuickActionsPlugin.registerActions();
+
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+
+  //! Inicializamos AwesomeNotifications
+  AwesomeNotifications().initialize(
+      null,
+      [
+        NotificationChannel(
+          channelKey: 'basic_channel',
+          channelName: 'Badge notifications',
+          channelDescription: 'Notification channel for basic tests',
+          defaultColor: const Color.fromARGB(255, 0, 162, 255),
+          ledColor: const Color.fromARGB(255, 255, 0, 0),
+          channelShowBadge: true, // Permitir mostrar badge
+          importance: NotificationImportance.High,
+        )
+      ],
+      debug: true);
 
   runApp(const ProviderScope(child: MainApp()));
 }
