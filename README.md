@@ -140,3 +140,18 @@ Puntualmente veremos
 - QuickActions
 - Android - QuickActions Shortcuts
 - App Notification Numbers (Algunos Android e IOS)
+
+## Sección 12
+
+Esta sección es de mucho interés para todos los que queremos monetizar de alguna manera nuestra aplicación sin tener que cobrar por usarla.
+
+Aquí veremos:
+
+- AdMob
+- Ads
+  - Banner
+  - Interstitial
+  - Rewarded
+- Remover ads con providers de Riverpod
+- Almacenar las preferencias en el dispositivo.
+- Ads Reales y configuraciones posteriores.

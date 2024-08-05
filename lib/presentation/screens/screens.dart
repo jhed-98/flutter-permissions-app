@@ -23,3 +23,7 @@ export 'biometrics/biometric_screen.dart';
 export 'location/location_screen.dart';
 export 'location/map_screen.dart';
 export 'location/controlled_map_screen.dart';
+
+//! Ads Screen
+export 'ads/ad_full_screen.dart';
+export 'ads/ad_rewarded_screen.dart';

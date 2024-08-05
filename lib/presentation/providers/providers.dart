@@ -22,3 +22,8 @@ export 'location/map_controller_provider.dart';
 
 // Badge
 export 'badge/badge_counter_provider.dart';
+
+// Ads
+export 'ads/admob_points_provider.dart';
+export 'ads/admob_provider.dart';
+export 'ads/show_ads_provider.dart';

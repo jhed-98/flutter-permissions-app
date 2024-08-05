@@ -5,9 +5,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:miscelaneos/config/config.dart';
 import 'package:miscelaneos/presentation/providers/providers.dart';
 
-void main() {
+void main() async {
   //! Se encarga de figar una orientacion del app
   WidgetsFlutterBinding.ensureInitialized();
+
+  //! Llamamos el plugin ADS
+  await AdmobPlugin.initialize();
 
   //! Llamamos al plugin
   QuickActionsPlugin.registerActions();
@@ -15,20 +18,7 @@ void main() {
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
   //! Inicializamos AwesomeNotifications
-  AwesomeNotifications().initialize(
-      null,
-      [
-        NotificationChannel(
-          channelKey: 'basic_channel',
-          channelName: 'Badge notifications',
-          channelDescription: 'Notification channel for basic tests',
-          defaultColor: const Color.fromARGB(255, 0, 162, 255),
-          ledColor: const Color.fromARGB(255, 255, 0, 0),
-          channelShowBadge: true, // Permitir mostrar badge
-          importance: NotificationImportance.High,
-        )
-      ],
-      debug: true);
+  await AwesomeNotificationPlugin.initialize();
 
   runApp(const ProviderScope(child: MainApp()));
 }
