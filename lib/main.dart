@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:miscelaneos/config/config.dart';
 import 'package:miscelaneos/presentation/providers/providers.dart';
+import 'package:workmanager/workmanager.dart';
 
 void main() async {
   //! Se encarga de figar una orientacion del app
@@ -15,10 +16,30 @@ void main() async {
   //! Llamamos al plugin
   QuickActionsPlugin.registerActions();
 
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-
   //! Inicializamos AwesomeNotifications
   await AwesomeNotificationPlugin.initialize();
+
+  //! Workmanager
+  Workmanager().initialize(
+      callbackDispatcher, // The top level function, aka callbackDispatcher
+      isInDebugMode:
+          true // If enabled it will post a notification whenever the task is running. Handy for debugging tasks
+      );
+
+  // Workmanager().registerOneOffTask(
+  //   "com.fernandoherrera.miscelaneos.simpleTask1",
+  //   "com.fernandoherrera.miscelaneos.simpleTask",
+  //   inputData: { 'hola': 'mundo' },
+  //   constraints: Constraints(
+  //       networkType: NetworkType.connected,
+  //       // requiresBatteryNotLow: true,
+  //       // requiresCharging: true,
+  //       // requiresDeviceIdle: true,
+  //       // requiresStorageNotLow: true
+  //   )
+  // );
+
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
   runApp(const ProviderScope(child: MainApp()));
 }

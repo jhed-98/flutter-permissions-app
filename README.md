@@ -155,3 +155,30 @@ Aquí veremos:
 - Remover ads con providers de Riverpod
 - Almacenar las preferencias en el dispositivo.
 - Ads Reales y configuraciones posteriores.
+
+## Sección 13
+
+Esta sección tiene por objetivo aprender a realizar procesos en segundo plano y periódicos en Android (IOS en la siguiente sección)
+
+Puntualmente veremos:
+
+- Workmanager
+- Configuraciones y restricciones
+- Isar - Local database
+- Repositorios y Datasources para base de datos
+- Schemas
+- Inserción y lectura de base de datos
+- Share preferences
+- Dispatchers
+
+Tengan presente que en IOS tiene limitantes, en Android podemos establecer un periodo de tiempo para indicar cuando queremos que se realice la tarea, pero depende de varios factores su ejecución, que discutiremos en esta sección.
+
+### Nota importante
+
+¡Ojo! Cuando estén trabajando en la lección de AdMob en esta sección, es posible que reciban una Alerta al hacer Testing con códigos Reales.
+
+Respecto a estos códigos, aparte de usar los de Test, les recomendamos que cuando hagan prueba con los de producción: deben asegurarse de primero configurar sus dispositivos como "testing" en AdMob para que No reciban mensajes de que infringen las políticas de uso en Android o iOS.
+
+Configurar un dispositivo de prueba te permite probar anuncios de producción de forma segura y verificar su código de implementación, sin infringir la política de tráfico no válido de AdMob. Puedes ver más información al respecto en este enlace:
+
+https://support.google.com/admob/answer/9691433?hl=es

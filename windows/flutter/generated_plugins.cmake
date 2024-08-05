@@ -5,6 +5,7 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   awesome_notifications
   geolocator_windows
+  isar_flutter_libs
   local_auth_windows
   permission_handler_windows
   share_plus

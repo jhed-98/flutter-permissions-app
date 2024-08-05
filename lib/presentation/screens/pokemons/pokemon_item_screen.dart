@@ -51,7 +51,7 @@ class _PokemonItemView extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.network(
-              pokemon.sprinFront,
+              pokemon.spriteFront,
               fit: BoxFit.contain,
               width: 150,
               height: 150,

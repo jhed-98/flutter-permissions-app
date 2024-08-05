@@ -9,6 +9,7 @@ export 'sensors/magnetometer_provider.dart';
 export 'compass/compass_provider.dart';
 
 // Pokemons
+export 'pokemons/pokemon_db_provider.dart';
 export 'pokemons/pokemon_list_provider.dart';
 export 'pokemons/pokemon_item_provider.dart';
 

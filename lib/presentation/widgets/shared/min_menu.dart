@@ -19,6 +19,7 @@ final menuItems = <MenuItem>[
   MenuItem('Brújula', Icons.explore, '/compass'),
   // Pokemon
   MenuItem('Pokemons', Icons.catching_pokemon, '/pokemons'),
+  MenuItem('Background Process', Icons.storage_rounded, '/db-pokemons'),
   // Biometria
   MenuItem('Biometrics', Icons.fingerprint, '/biometrics'),
   // Ubicación

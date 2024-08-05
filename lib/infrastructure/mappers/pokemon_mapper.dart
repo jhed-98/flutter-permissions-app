@@ -8,7 +8,7 @@ class PokemonMapper {
     return Pokemon(
         id: apiPokemon.id,
         name: apiPokemon.name,
-        sprinFront: apiPokemon.sprites.frontDefault,
+        spriteFront: apiPokemon.sprites.frontDefault,
         type: apiPokemon.types[0].type.name);
   }
 }
