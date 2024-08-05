@@ -23,7 +23,7 @@ void main() async {
   Workmanager().initialize(
       callbackDispatcher, // The top level function, aka callbackDispatcher
       isInDebugMode:
-          true // If enabled it will post a notification whenever the task is running. Handy for debugging tasks
+          true // Si está habilitado, se publicará una notificación cada vez que se ejecute la tarea. Útil para tareas de depuración
       );
 
   // Workmanager().registerOneOffTask(
